@@ -33,7 +33,10 @@
 </section>
 <section class="section" id="agenda">
  <div class="sectionHead"><div><p class="eyebrow">03 / COMPETICIÓN</p><h2>CALENDARIO <em>2026–2027.</em></h2></div><span class="pill">DIVISIÓN DE HONOR</span></div>
- <div class="agendaTools"><div class="tabs small"><button class="active" data-agenda="A">ROALCA A</button><button data-agenda="B">ROALCA B</button></div><select id="roundFilter" aria-label="Filtrar jornada"><option value="all">Todas las jornadas</option></select></div>
+ <div class="agendaTools"><div class="tabs small" id="agendaMode">
+<button class="active" data-mode="roalca">ROALCA</button>
+<button data-mode="todos">TODOS</button>
+ </div><div class="tabs small"><button class="active" data-agenda="A">ROALCA A</button><button data-agenda="B">ROALCA B</button></div><select id="roundFilter" aria-label="Filtrar jornada"><option value="all">Todas las jornadas</option></select></div>
  <div id="fixtures" class="fixtureList"></div>
 </section>
 <section class="section darkPanel" id="resultados">
