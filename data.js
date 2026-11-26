@@ -38,7 +38,7 @@ window.ROALCA_DATA = {
           "name": "D. Jiménez",
           "number": 9,
           "position": "Ala",
-          "photo": "assets/jugadores/09-d-jiménez.webp"
+          "photo": "assets/jugadores/09-d-jimenez.webp"
         },
         {
           "name": "Juanjo",
