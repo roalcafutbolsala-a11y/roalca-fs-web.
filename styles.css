@@ -103,24 +103,20 @@ body {
 body {
   padding-bottom: 100px !important;
 }
-/* NAVEGACIÓN POR APARTADOS */
+/* NAVEGACION POR APARTADOS */
 main > section {
   display: none !important;
 }
 
-main > #inicio {
-  display: block !important;
-}
-
+body:not(:has(main > section:target)) main > #inicio,
 main > section:target {
   display: block !important;
 }
 
-/* Selector de Roalca A y B solo en Jugadores */
-main > section.selector {
+main > .selector {
   display: none !important;
 }
 
-main:has(#plantilla:target) > section.selector {
+body:has(#plantilla:target) main > .selector {
   display: block !important;
 }
