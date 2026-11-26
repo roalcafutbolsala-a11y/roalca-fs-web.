@@ -66,6 +66,7 @@ body {
 }
 .bottom-nav {
   position: fixed !important;
+  top: auto !important;
   left: 12px !important;
   right: 12px !important;
   bottom: 12px !important;
