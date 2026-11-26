@@ -64,3 +64,41 @@ section[id] {
 body {
   padding-bottom: 90px;
 }
+.bottom-nav {
+  position: fixed !important;
+  left: 12px !important;
+  right: 12px !important;
+  bottom: 12px !important;
+  width: auto !important;
+  height: 76px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  padding: 6px !important;
+  background: #141414 !important;
+  border: 1px solid #333 !important;
+  border-radius: 18px !important;
+  z-index: 99999 !important;
+}
+
+.bottom-nav a {
+  flex: 1 !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 4px !important;
+  color: #aaa !important;
+  text-decoration: none !important;
+  font-size: 11px !important;
+}
+
+.bottom-nav a span {
+  font-size: 23px !important;
+}
+
+body {
+  padding-bottom: 100px !important;
+}
