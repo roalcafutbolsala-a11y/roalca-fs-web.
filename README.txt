@@ -1,22 +1,24 @@
-# ROALCA FS — web inicial
+ROALCA FS — WEB COMPLETA (BASE ACTUALIZABLE)
+Temporada 2026/2027 · Estética negro + rosa flúor · Diseño responsive.
 
-Web estática responsive para Roalca Fútbol Sala, con estética negro + rosa flúor.
+Incluye:
+- Inicio, plantilla, alineación, agenda, resultados y estadísticas.
+- Selector Roalca A / Roalca B.
+- Modo claro/oscuro y menú móvil.
+- Plantilla Roalca A con 14 fichas y fotografías.
+- Plantilla Roalca B con los nombres y dorsales que constaban en la web.
+- Calendario Roalca A (18 jornadas) extraído de Calendario Honor-3.pdf.
+- Resultado Jornada 1: Roalca FS 8–1 Charnals FC.
+- Goleadores de Roalca A según pichichiroalcaliga202604.pdf.
 
-## Archivos
-- `index.html`: contenido y secciones.
-- `styles.css`: diseño responsive.
-- `script.js`: menú móvil y año del pie.
-- `assets/escudo-roalca.png`: escudo incluido.
+IMPORTANTE SOBRE LOS DATOS:
+- Las asistencias, tarjetas, clasificación y resultados posteriores no se han rellenado porque no se han localizado datos completos y verificables para todos ellos.
+- El calendario de Roalca B debe añadirse cuando se facilite.
+- Revisa el nombre oficial de la competición y la denominación de los equipos antes de publicar.
+- El escudo original no se ha encontrado entre los archivos del proyecto; el encabezado lleva una R tipográfica provisional. Añade el escudo como assets/escudo-roalca.png si quieres sustituirla.
 
-## Publicar gratis en Vercel
-1. Descomprime `roalca-fs-web.zip`.
-2. Entra en https://vercel.com/ y crea una cuenta o inicia sesión.
-3. En el panel, selecciona **Add New → Project**.
-4. Importa un repositorio Git que contenga estos archivos, o usa la opción de despliegue disponible en tu cuenta.
-5. Para un sitio estático sin framework, deja el framework como **Other** y la carpeta raíz como `./`.
-6. Pulsa **Deploy**. Vercel asignará una dirección gratuita bajo `vercel.app`.
-
-## Antes de publicarla
-Revisar los dorsales y nombres de ambas plantillas. Añadir los calendarios/resultados oficiales y los enlaces de redes sociales. Los apartados sin datos aparecen señalados como “En actualización” para no mostrar información inventada.
-
-La web usa Google Fonts desde CDN; si se desea evitar dependencias externas, se puede quitar la línea `@import` de `styles.css`.
+Publicación:
+1. Descomprime el ZIP.
+2. Sube el contenido de la carpeta a tu repositorio GitHub (mantén index.html en la raíz).
+3. En Vercel, importa/conecta ese repositorio y pulsa Deploy.
+4. Para actualizar datos más adelante, edita data.js.
