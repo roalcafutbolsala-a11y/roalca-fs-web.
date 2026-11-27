@@ -132,7 +132,7 @@ window.ROALCA_DATA = {
 {
   "name": "Aarón",
   "number": 9,
-  "position": "Pivot",
+  "position": "Pívot",
   "photo": "assets/jugadores-b/09-aaron.png"
 },
 {
@@ -144,7 +144,7 @@ window.ROALCA_DATA = {
 {
   "name": "Enzo",
   "number": 11,
-  "position": "Pivot",
+  "position": "Pívot",
   "photo": "assets/jugadores-b/11-enzo.png"
 },
 {
