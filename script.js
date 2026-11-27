@@ -26,13 +26,13 @@ function crestPath(name){
     ["castilla","01 Castillo 2.0 escudo.png"],
     ["centollos","02 Centollos Furiosos escudo.png"],
     ["cubatasaray","03 Cubatasaray F.C.png"],
-    ["desde cero","04 Desde Cero F.C. Escudo.png"],
+    ["desde cero","04 Desde Cero F.C Escudo.png"],
     ["crekis","04 Los Crekis escudo.png"],
     ["rousillon","06 Rousillon Escudo.png"],
-    ["sparta","06 Sparta Calatrava escudo.png"],
+    ["sparta","06 Saparta Calatrava escudo.png"],
     ["talleres lijai","08 Talleres Lijai escudo.png"],
     ["tois","10 Los Tois Futsal escudo.png"],
-    ["pplu","09 Equipo Pplu escudo.png"],
+    ["pplu","11 Team Pplu escudo.png"],
     ["sordos","11 CD Sordos escudo.jpg"]
   ];
 
