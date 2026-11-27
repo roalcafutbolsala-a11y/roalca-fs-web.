@@ -94,70 +94,83 @@ window.ROALCA_DATA = {
       "name": "Roalca FS B",
       "players": [
         {
-          "name": "Álex",
-          "number": 2,
-          "position": "Portero"
-        },
-        {
-          "name": "Polo",
-          "number": 4,
-          "position": "Jugador"
-        },
-        {
-          "name": "Darío",
-          "number": 5,
-          "position": "Jugador"
-        },
-        {
-          "name": "Baena",
-          "number": 6,
-          "position": "Jugador"
-        },
-        {
-          "name": "Pantoja",
-          "number": 7,
-          "position": "Jugador"
-        },
-        {
-          "name": "Aitor",
-          "number": 8,
-          "position": "Jugador"
-        },
-        {
-          "name": "Aarón",
-          "number": 9,
-          "position": "Jugador"
-        },
-        {
-          "name": "Berlanga",
-          "number": 10,
-          "position": "Jugador"
-        },
-        {
-          "name": "Enzo",
-          "number": 11,
-          "position": "Jugador"
-        },
-        {
-          "name": "Pérez",
-          "number": 14,
-          "position": "Jugador"
-        },
-        {
-          "name": "Unai",
-          "number": 19,
-          "position": "Jugador"
-        },
-        {
-          "name": "Adri",
-          "number": 21,
-          "position": "Jugador"
-        },
-        {
-          "name": "Albert",
-          "number": 49,
-          "position": "Jugador"
-        }
+  "name": "Alex",
+  "number": 2,
+  "position": "Portero",
+  "photo": "assets/jugadores-b/02-alex.png"
+},
+{
+  "name": "Polo",
+  "number": 4,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/04-polo.png"
+},
+{
+  "name": "Darío",
+  "number": 5,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/05-dario.png"
+},
+{
+  "name": "Baena",
+  "number": 6,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/06-baena.png"
+},
+{
+  "name": "Pantoja",
+  "number": 7,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/07-pantoja.png"
+},
+{
+  "name": "Aitor",
+  "number": 8,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/08-aitor.png"
+},
+{
+  "name": "Aarón",
+  "number": 9,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/09-aaron.png"
+},
+{
+  "name": "Berlanga",
+  "number": 10,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/10-berlanga.png"
+},
+{
+  "name": "Enzo",
+  "number": 11,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/11-enzo.png"
+},
+{
+  "name": "D. Pérez",
+  "number": 14,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/14-perez.png"
+},
+{
+  "name": "Unai",
+  "number": 19,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/19-unai.png"
+},
+{
+  "name": "Adri",
+  "number": 21,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/21-adri.png"
+},
+{
+  "name": "Albert",
+  "number": 49,
+  "position": "Jugador",
+  "photo": "assets/jugadores-b/49-albert.png"
+}
       ]
     }
   },
