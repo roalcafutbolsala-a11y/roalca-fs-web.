@@ -102,73 +102,73 @@ window.ROALCA_DATA = {
 {
   "name": "Polo",
   "number": 4,
-  "position": "Jugador",
+  "position": "Cierre",
   "photo": "assets/jugadores-b/04-polo.png"
 },
 {
   "name": "Darío",
   "number": 5,
-  "position": "Jugador",
+  "position": "Ala",
   "photo": "assets/jugadores-b/05-dario.png"
 },
 {
   "name": "Baena",
   "number": 6,
-  "position": "Jugador",
+  "position": "Ala",
   "photo": "assets/jugadores-b/06-baena.png"
 },
 {
   "name": "Pantoja",
   "number": 7,
-  "position": "Jugador",
+  "position": "Cierre",
   "photo": "assets/jugadores-b/07-pantoja.png"
 },
 {
   "name": "Aitor",
   "number": 8,
-  "position": "Jugador",
+  "position": "Ala",
   "photo": "assets/jugadores-b/08-aitor.png"
 },
 {
   "name": "Aarón",
   "number": 9,
-  "position": "Jugador",
+  "position": "Pivot",
   "photo": "assets/jugadores-b/09-aaron.png"
 },
 {
   "name": "Berlanga",
   "number": 10,
-  "position": "Jugador",
+  "position": "Cierre",
   "photo": "assets/jugadores-b/10-berlanga.png"
 },
 {
   "name": "Enzo",
   "number": 11,
-  "position": "Jugador",
+  "position": "Pivot",
   "photo": "assets/jugadores-b/11-enzo.png"
 },
 {
   "name": "D. Pérez",
   "number": 14,
-  "position": "Jugador",
+  "position": "Ala",
   "photo": "assets/jugadores-b/14-perez.png"
 },
 {
   "name": "Unai",
   "number": 19,
-  "position": "Jugador",
+  "position": "Ala",
   "photo": "assets/jugadores-b/19-unai.png"
 },
 {
   "name": "Adri",
   "number": 21,
-  "position": "Jugador",
+  "position": "Ala",
   "photo": "assets/jugadores-b/21-adri.png"
 },
 {
   "name": "Albert",
   "number": 49,
-  "position": "Jugador",
+  "position": "Ala",
   "photo": "assets/jugadores-b/49-albert.png"
 }
       ]
