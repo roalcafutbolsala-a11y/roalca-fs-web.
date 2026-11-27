@@ -1,6 +1,29 @@
 const D=window.ROALCA_DATA;let team="A",position="Todos",agendaTeam="A",agendaMode="roalca",stat="goals";
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
-function renderPlayers(){const list=D.teams[team].players.filter(p=>position==="Todos"||p.position===position);$("#rosterCount").textContent=list.length+" JUGADORES";$("#playersGrid").innerHTML=list.map(p=>`<article class="player">${p.photo?`<img src="${p.photo}" alt="${p.name}" loading="lazy">`:`<div class="avatar">${p.number}</div>`}<div class="playerInfo"><small>#${String(p.number).padStart(2,"0")} · ${p.position.toUpperCase()}</small><h3>${p.name}</h3><p>${D.teams[team].name}</p></div></article>`).join("")||'<div class="empty">Todavía no hay jugadores cargados.</div>';$("#positionFilters").style.display=team==="A"?"flex":"none"}
+function renderPlayers(){
+  const list = D.teams[team].players.filter(
+    p => position === "Todos" || p.position === position
+  );
+
+  $("#rosterCount").textContent = list.length + " JUGADORES";
+
+  $("#playersGrid").innerHTML = list.map(p => `
+    <article class="player">
+      ${p.photo
+        ? `<img src="${p.photo}" alt="${p.name}" loading="lazy">`
+        : `<div class="avatar">${p.number}</div>`
+      }
+      <div class="playerInfo">
+        <small>#${String(p.number).padStart(2,"0")} · ${p.position.toUpperCase()}</small>
+        <h3>${p.name}</h3>
+        <p>${D.teams[team].name}</p>
+      </div>
+    </article>
+  `).join("") || '<div class="empty">Todavía no hay jugadores cargados.</div>';
+
+  // Mostrar los filtros en ambos equipos
+  $("#positionFilters").style.display = "flex";
+}
 function shortName(name){return name.replace('WWW.ROALCAFUTBOLSALA.COM "B"','ROALCA B').replace('WWW.ROALCAFUTBOLSALA.COM','ROALCA A').replace(/\b(F\.S\.|F\.C\.|FS|FC|F\.S|F\.C)\b/gi,'').replace(/\s+/g,' ').trim()}
 function initials(name){let n=shortName(name).replace(/[^A-ZÁÉÍÓÚÜÑ0-9 ]/gi,' ').trim().split(/\s+/).filter(Boolean);return (n.length>1?n[0][0]+n[1][0]:n[0]?.slice(0,2)||'??').toUpperCase()}
 function isRoalca(name){return name.includes('WWW.ROALCAFUTBOLSALA.COM')}
