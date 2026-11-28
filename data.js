@@ -133,7 +133,7 @@ window.ROALCA_DATA = {
   "name": "Aarón",
   "number": 9,
   "position": "Pívot",
-  "photo": "assets/jugadores-b/10-berlanga.png"
+  "photo": "assets/jugadores-b/09-ron.png"
 },
 {
   "name": "Berlanga",
@@ -145,7 +145,7 @@ window.ROALCA_DATA = {
   "name": "Enzo",
   "number": 11,
   "position": "Pívot",
-  "photo": "assets/jugadores-b/06-baena.png"
+  "photo": "assets/jugadores-b/11-enzo.png"
 },
 {
   "name": "D. Pérez",
