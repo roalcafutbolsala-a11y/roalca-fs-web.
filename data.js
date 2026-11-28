@@ -133,7 +133,7 @@ window.ROALCA_DATA = {
   "name": "Aarón",
   "number": 9,
   "position": "Pívot",
-  "photo": "assets/jugadores-b/09-ron.png"
+  "photo": "assets/jugadores-b/09-aaron.png"
 },
 {
   "name": "Berlanga",
