@@ -16,7 +16,13 @@ function renderPlayers(){
       <div class="playerInfo">
         <small>#${String(p.number).padStart(2,"0")} · ${p.position.toUpperCase()}</small>
         <h3>${p.name}</h3>
-        <p>${D.teams[team].name}</p>
+        <div class="playerStats">
+  <div><span>PJ</span><strong>${p.stats?.pj ?? 0}</strong></div>
+  <div><span>GOL</span><strong>${p.stats?.gol ?? 0}</strong></div>
+  <div><span>AST</span><strong>${p.stats?.ast ?? 0}</strong></div>
+  <div><span>TA</span><strong>${p.stats?.ta ?? 0}</strong></div>
+  <div><span>TR</span><strong>${p.stats?.tr ?? 0}</strong></div>
+</div>
       </div>
     </article>
   `).join("") || '<div class="empty">Todavía no hay jugadores cargados.</div>';
